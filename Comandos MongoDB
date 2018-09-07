@@ -1,0 +1,33 @@
+Start mongoDB
+
+>sudo service mongod start
+
+Stop mongoDB
+
+>sudo service mongod stop
+
+Abrir mongo
+
+>mongo
+
+Mostrar database
+
+>show dbs
+
+Trocar database / criar database
+
+>use <my_database>
+
+Criar Collection
+
+>db.createCollection("my_collection")
+
+Mostrar Collections
+
+>show collections
+
+Exibir conteudo da Collection
+
+>db.<my_colletion>.find
+
+
